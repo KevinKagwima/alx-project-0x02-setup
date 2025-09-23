@@ -1,10 +1,11 @@
 import { ButtonProps } from "@/interfaces";
 
-const Button: React.FC<ButtonProps> = ({ title, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ title, onClick, styles }) => {
   return (
     <button
       onClick={onClick}
-      className="py-2 px-4 rounded-md bg-blue-600 text-white font-bold cursor-pointer"
+      // className="py-2 px-4 rounded-md bg-blue-600 text-white font-bold cursor-pointer"
+      className={styles}
     >
       {title}
     </button>
