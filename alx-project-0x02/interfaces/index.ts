@@ -11,6 +11,8 @@ export interface ButtonProps
   onClick?: () => void;
 }
 
+type btn_size<ButtonProps> = "small" | "medium" | "large";
+type btn_shape<ButtonProps> = "rounded-sm" | "rounded-md" | "rounded-full";
 export interface ModalProps {
   onClose: () => void;
   onSubmit: (post: FormProps) => void;
