@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header";
-import InfoCard from "@/components/common/Card";
+import Card from "@/components/common/Card";
 
 const Home: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       </div>
       <div className="mt-10">
         <h1>The cards go below here</h1>
-        <InfoCard title="Heading" content="This is the content" />
+        <Card title="Heading" content="This is the content" />
       </div>
     </>
   );
