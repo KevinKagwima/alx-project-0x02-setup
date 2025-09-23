@@ -2,7 +2,7 @@ import { type CardProps } from "@/interfaces";
 
 const Card: React.FC<CardProps> = ({ title, content }) => {
   return (
-    <div className="p-4 bg-gray-50 text-gray-900">
+    <div className="p-4 bg-gray-50 text-gray-900 rounded-md">
       <h1>Title: {title}</h1>
       <p>Content: {content}</p>
     </div>
