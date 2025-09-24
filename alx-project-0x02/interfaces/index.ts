@@ -24,6 +24,8 @@ export interface FormProps extends CardProps {
 }
 
 export interface PostProps extends CardProps {
+  title: string;
+  content: string;
   userId: number;
   id: number;
 }
