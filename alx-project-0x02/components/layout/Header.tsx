@@ -16,6 +16,9 @@ const Header: React.FC = () => {
         <li className="cursor-pointer">
           <Link href="/posts">Posts</Link>
         </li>
+        <li className="cursor-pointer">
+          <Link href="/users">Users</Link>
+        </li>
       </ul>
     </header>
   );

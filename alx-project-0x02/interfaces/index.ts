@@ -29,3 +29,17 @@ export interface PostProps extends CardProps {
   userId: number;
   id: number;
 }
+
+export interface UserProps {
+  name: string;
+  email: string;
+  id: number;
+  address: UserAddress;
+}
+
+export interface UserAddress {
+  street: string;
+  suite: string;
+  city: number;
+  zipcode: number;
+}

@@ -2,7 +2,7 @@ import Header from "@/components/layout/Header";
 import PostCard from "@/components/common/PostCard";
 import { PostProps } from "@/interfaces";
 
-const Posts: React.FC = ({ posts }) => {
+const Posts: React.FC<PostProps[]> = ({ posts }) => {
   return (
     <>
       <Header />
